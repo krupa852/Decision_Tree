@@ -1,0 +1,7 @@
+
+if DefaultedBorrower is No, then 
+	if HomeOwner is Yes, then AnnualIncome is >97000.
+	if HomeOwner is No, then 
+		if MartialStatus is Married, then AnnualIncome is <=97000.
+		if MartialStatus is Single, then AnnualIncome is <=97000.
+if DefaultedBorrower is Yes, then AnnualIncome is <=97000.
